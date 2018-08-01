@@ -8,6 +8,10 @@ class Artist
     @song << self
   end 
   
+  def self.song 
+    @song 
+  end   
+  
   def songs 
     
   end   
