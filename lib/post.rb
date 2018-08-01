@@ -12,12 +12,13 @@ class Post
     @@all 
   end   
   
-  
-    
-  
-  
-  
-  
+  def author_name
+    if post.author 
+      post.author.name 
+    else 
+      nil 
+    end   
+  end   
 end   
   
   
