@@ -26,7 +26,8 @@ class Artist
   end 
   
   def song_count
-    @@all.count? {|song|
+    @@all.count
+  end   
   
   
 end   
